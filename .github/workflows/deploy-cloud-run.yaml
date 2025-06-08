@@ -11,11 +11,11 @@ jobs:
     runs-on: ubuntu-latest
     environment: Production
     env:
-      VERCEL_TOKEN: "Uepe4LUI0cFRzOqT91cLFWNL"
+      VERCEL_TOKEN: Uepe4LUI0cFRzOqT91cLFWNL
       # VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
-      VERCEL_ORG_ID: "nYyzckz1HEVq4J8w5L3ptlt1"
+      VERCEL_ORG_ID: nYyzckz1HEVq4J8w5L3ptlt1
       # VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
-      VERCEL_PROJECT_ID: "9SAYAkWvz8NCjIJN58bV3j6v"
+      VERCEL_PROJECT_ID: 9SAYAkWvz8NCjIJN58bV3j6v
     steps:
       - uses: actions/checkout@v2
       - name: Install Vercel CLI
